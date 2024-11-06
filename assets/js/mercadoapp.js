@@ -37,6 +37,7 @@ function renderTask(){
     tasks.forEach((data, index) =>{
         //Crear el elemento de la lista
         const li = document.createElement("li");
+        li.classList.add("alinear-izquierda"); // Agregar la clase de alineación
 
         // Crear el texto de la tarea
         const taskText = document.createElement("span");
